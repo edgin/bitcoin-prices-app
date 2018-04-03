@@ -1,0 +1,23 @@
+Next.js app 
+
+1. Install it : 
+
+npm install --save next react react-dom
+
+2. Add script : 
+
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
+
+3. Populate page ./pages/index.js
+
+export default () => <div>Welcome to next.js!</div>
+
+4. Run "npm run dev"
+
+5. http://localhost:3000
